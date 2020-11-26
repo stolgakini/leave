@@ -21,6 +21,9 @@ public class ManagerRest {
 
     ManagerService managerService;
 
+
+    Object obj;
+
     @Autowired
     public ManagerRest(LeaveRepository leaveRepository, ManagerService managerService) {
         this.leaveRepository = leaveRepository;

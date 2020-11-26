@@ -19,7 +19,6 @@ import java.util.concurrent.TimeUnit;
 @ControllerAdvice
 public class RestExceptionHandler {
 
-
     @Autowired
     private MessageSource messageSource;
 
