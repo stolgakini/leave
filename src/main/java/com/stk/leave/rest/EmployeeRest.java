@@ -40,6 +40,8 @@ public class EmployeeRest {
         Calendar startCal = Calendar.getInstance();
         startCal.setTime(startDate);
 
+        System.out.println("test");
+
         Calendar endCal = Calendar.getInstance();
         endCal.setTime(endDate);
 
